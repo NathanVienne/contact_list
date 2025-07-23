@@ -80,7 +80,7 @@ function App() {
   return (
     <>
       <h1 className='text-center text-3xl mt-10'>Bienvenue sur Zoutlook</h1>
-      <section className='w-2xl md:w-4xl mx-auto'>
+      <section className='w-2xl md:w-4xl mx-auto mb-10'>
         <Form handleAddContact={handleCreate} />
         <Table contacts={contacts}
           onDelete={handleDelete}
